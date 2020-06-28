@@ -89,7 +89,7 @@ const app = express()
 
       });
       
-    })
+    });
   
     app.delete('/usuario/:id', verificaToken, function (req, res) {
         
@@ -112,6 +112,6 @@ const app = express()
 
       });
 
-    })
+    });
   
     module.exports = app;
